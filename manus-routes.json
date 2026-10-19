@@ -1,5 +1,6 @@
 {
   "routes": [
-    { "path": "/", "title": "The Statue of Laocoön" }
+    { "path": "/", "title": "The Statue of Laocoön" },
+    { "path": "/games", "title": "Games — Laocoön" }
   ]
 }

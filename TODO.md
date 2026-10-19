@@ -23,3 +23,12 @@
 ## Serve and preview the website
 - [x] A minimal Node static server listens on `0.0.0.0:3000` and serves the page and the required `/manus-routes.json` route manifest.
 - [x] Project metadata includes a durable HTTPS `logoUrl` for the Laocoön asset.
+
+## Deliver the Games entry point and playable Stackfall page
+- [x] The header pill is renamed from “Contact” to “Games” and links to the same-site `/games` page.
+- [x] The Node server serves `/games` as a dedicated games page and `manus-routes.json` declares the new page route.
+- [x] The Games page delivers a playable Tetris-style falling-block game with keyboard controls, touch controls, pause/resume, new game, next-piece preview, score, level, line count, high score persistence, ghost piece, and game-over state.
+- [x] The Games page is responsive and uses a dark bronze/blue editorial visual language that complements the existing Laocoön landing page.
+- [x] Stackfall opens with a clear Start game state, exposes a live dashboard with readiness and sound status, and supports restart/play-again flow.
+- [x] Gameplay includes synthesized sound effects for start, movement, rotation, drops, line clears, and game over, plus board impact, line-clear flash, and game-over motion effects.
+- [x] Falling blocks and next-piece previews use glossy gradients, bevel highlights, inset shadows, and dimensional color treatment for a more realistic physical appearance.

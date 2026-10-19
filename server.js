@@ -23,7 +23,8 @@ function safePath(urlPath) {
 }
 
 const server = http.createServer((req, res) => {
-  const filePath = safePath(req.url);
+  const requestPath = (req.url || '/').split('?')[0].replace(/\/+$/, '') || '/';
+  const filePath = requestPath === '/games' ? path.join(root, 'games.html') : safePath(req.url);
   if (!filePath) {
     res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
     return res.end('Bad request');
