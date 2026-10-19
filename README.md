@@ -1,3 +1,7 @@
+# My Face If i See this Repository
+<img width="1920" height="1080" alt="Screenshot" src="https://github.com/user-attachments/assets/b81493ec-43da-4fda-a4a3-62a16ebc08c5" />
+
+# Start With
 ssh root@IP_VPS_KAMU
 apt update && apt upgrade -y
 apt install git curl nginx ufw -y
@@ -54,6 +58,3 @@ cd /var/www/webprojects
 git pull
 npm install          # kalau dependency berubah
 pm2 restart webprojects
-
-# My Face If i See this Repository
-<img width="1920" height="1080" alt="Screenshot" src="https://github.com/user-attachments/assets/b81493ec-43da-4fda-a4a3-62a16ebc08c5" />
